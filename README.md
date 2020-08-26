@@ -1,4 +1,4 @@
-#I. File list
+# I. File list
 ```
 .
 |    spatial_feature_calculator.py - Python script containing the spatial features model*
@@ -7,7 +7,7 @@
 * Runs for all combinations of N_length and N_width values
 ```
 
-#II. How to Run
+# II. How to Run
 1. Download the associated data at <insert url later>. Note, that this already contains both the inputs and outputs 
 of the spatial features model.
 2. Download and Run Docker Desktop. For more information on Docker visit: https://docs.docker.com/desktop/. To ensure 
