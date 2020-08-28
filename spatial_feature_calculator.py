@@ -34,9 +34,9 @@ def importer():
                 contains the drains, census, and slope datasets
     """
     # Import data
-    drains = QgsVectorLayer(os.path.join(pathto_data, 'spatial_features_model','input-spatial_data', 'drains_w_daminfo.shp'), 'drains_w_daminfo', 'ogr')
-    census = QgsVectorLayer(os.path.join(pathto_data, 'spatial_features_model','input-spatial_data', 'census.shp'), 'census blocks', 'ogr')
-    slope = QgsRasterLayer(os.path.join(pathto_data, 'spatial_features_model','input-spatial_data', 'slope.tiff'))
+    drains = QgsVectorLayer(os.path.join(pathto_data, 'spatial_features_model','input', 'drains_w_daminfo.shp'), 'drains_w_daminfo', 'ogr')
+    census = QgsVectorLayer(os.path.join(pathto_data, 'spatial_features_model','input', 'census.shp'), 'census blocks', 'ogr')
+    slope = QgsRasterLayer(os.path.join(pathto_data, 'spatial_features_model','input', 'slope.tiff'))
     # Export data
     return drains, census, slope
 
