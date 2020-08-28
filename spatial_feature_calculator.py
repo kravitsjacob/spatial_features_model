@@ -119,7 +119,7 @@ def main():
     outlist = [(i, j) for i in N_length for j in N_width]
     df = pd.DataFrame(data=outlist, columns=['N_length','N_width'])
     # Create HDF5 Objective
-    s = pd.HDFStore(os.path.join(pathto_data, 'spatial_features_model', 'output-spatial_features', 'spatial_feats.h5'))
+    s = pd.HDFStore(os.path.join(pathto_data, 'spatial_features_model', 'output', 'spatial_feats.h5'))
     # Run Spatial Features Model
     df.apply(lambda row: get_spatial_feats(row[0], row[1], drains, census, slope, s), axis=1)
     s.close()
