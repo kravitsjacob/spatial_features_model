@@ -8,7 +8,7 @@
 ```
 
 # II. How to Run
-1. Download the associated data at <insert url later>. Note, that this already contains both the inputs and outputs 
+1. Download the associated data at https://osf.io/vyzh8/. Note, that this already contains both the inputs and outputs 
 of the spatial features model.
 2. Download and Run Docker Desktop. For more information on Docker visit: https://docs.docker.com/desktop/. To ensure 
 that it is installed correctly go to the command prompt/terminal and enter $ docker --version
